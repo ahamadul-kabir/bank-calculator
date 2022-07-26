@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 class="titleText">Welcome To UCB Bank</h2>
+
+
+    <div class="card">
+        <form name="loginForm" onsubmit="return validateForm()" required>
+           <h3 class="user"> User Name: </h3>
+            <input id="Uname" type="text" name="Uname">
+    
+            <h3 class="pword">Password: </h3>
+            <input id="pass" type="password" name="password">
+            <br><br>
+    
+            <input onclick="window.location.href='./bank.html'"class="submit" type="submit" value="Submit" >
+          </form>
+       </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

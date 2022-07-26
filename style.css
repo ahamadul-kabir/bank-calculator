@@ -1,0 +1,112 @@
+.titleText{
+
+    font-size: 40px;
+    font-weight:800;
+    text-align: center;
+}
+
+.card{
+    margin: 100px 400px;
+    background-color: #dfe4ea;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    padding:50px 230px;
+    border-radius: 20px;
+    
+}
+.user{ 
+
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.pword{ 
+
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#Uname{
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+#pass{
+
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.submit
+{
+    padding: 5px 30px;
+    border-radius: 50px;
+    margin-left: 63px;
+    font-size: 18px;
+    
+}
+
+.scetionDeposit{
+
+    height: 100px;
+    width: 200px;
+    background-color: #487eb0;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 80px;
+
+
+}
+.head{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.head2{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 80px;
+    margin-top: 100px;
+
+}
+.depositNum{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 160px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+   
+}
+.scetionMoneyDeposit{
+
+    height: 150px;
+    width: 450px;
+    background-color: #82ccdd;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 110px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+    
+}
+.submit1
+{
+    padding: 5px 30px;
+    border-radius: 50px;
+    margin-left: 170px;
+    font-size: 18px;
+    
+}
